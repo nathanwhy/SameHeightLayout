@@ -12,10 +12,6 @@ class PhotoViewController: UICollectionViewController {
     
     var photos: [UIImage] = []
     
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,11 +22,11 @@ class PhotoViewController: UICollectionViewController {
         photos = photoNames.flatMap({ UIImage(named: $0 )})
                            .map({ $0.decompressedImage })
         
-        collectionView!.backgroundColor = UIColor.clearColor()
+        collectionView!.backgroundColor = UIColor.whiteColor()
         collectionView!.contentInset = UIEdgeInsets(top: 23, left: 5, bottom: 10, right: 5)
         
         let layout = collectionViewLayout as! SameHeightLayout
-        layout.cellPadding = 5
+        layout.cellPadding = 2
         layout.delegate = self
         layout.numberOfColumns = 2
     }
