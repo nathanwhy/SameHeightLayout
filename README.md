@@ -1,5 +1,4 @@
 # SameHeightLayout
-Every row has the same height
 
 ![Screenshot](Screenshot/ScreenShot.png)
 
