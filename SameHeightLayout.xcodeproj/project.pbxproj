@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		D8AEE41F1C42A0AF00651AE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AEE41E1C42A0AF00651AE6 /* AppDelegate.swift */; };
-		D8AEE4211C42A0AF00651AE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AEE4201C42A0AF00651AE6 /* ViewController.swift */; };
 		D8AEE4241C42A0AF00651AE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8AEE4221C42A0AF00651AE6 /* Main.storyboard */; };
 		D8AEE4261C42A0AF00651AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AEE4251C42A0AF00651AE6 /* Assets.xcassets */; };
 		D8AEE4291C42A0AF00651AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8AEE4271C42A0AF00651AE6 /* LaunchScreen.storyboard */; };
+		D8AEE4341C42A4AA00651AE6 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AEE4331C42A4AA00651AE6 /* PhotoCell.swift */; };
+		D8AEE4381C42A68800651AE6 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AEE4371C42A68800651AE6 /* PhotoViewController.swift */; };
+		D8AEE43A1C42A92B00651AE6 /* Photo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AEE4391C42A92B00651AE6 /* Photo.xcassets */; };
+		D8AEE43C1C42ACCA00651AE6 /* SameHeightLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AEE43B1C42ACCA00651AE6 /* SameHeightLayout.swift */; };
+		D8AEE43E1C42B1C100651AE6 /* UIImage+Decompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AEE43D1C42B1C100651AE6 /* UIImage+Decompression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D8AEE41B1C42A0AF00651AE6 /* SameHeightLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SameHeightLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8AEE41E1C42A0AF00651AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8AEE4201C42A0AF00651AE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8AEE4231C42A0AF00651AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8AEE4251C42A0AF00651AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8AEE4281C42A0AF00651AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8AEE42A1C42A0AF00651AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8AEE4331C42A4AA00651AE6 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		D8AEE4371C42A68800651AE6 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		D8AEE4391C42A92B00651AE6 /* Photo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Photo.xcassets; sourceTree = "<group>"; };
+		D8AEE43B1C42ACCA00651AE6 /* SameHeightLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SameHeightLayout.swift; sourceTree = "<group>"; };
+		D8AEE43D1C42B1C100651AE6 /* UIImage+Decompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Decompression.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,24 @@
 		D8AEE41D1C42A0AF00651AE6 /* SameHeightLayout */ = {
 			isa = PBXGroup;
 			children = (
+				D8AEE4301C42A0F400651AE6 /* SameHeightLayout */,
 				D8AEE41E1C42A0AF00651AE6 /* AppDelegate.swift */,
-				D8AEE4201C42A0AF00651AE6 /* ViewController.swift */,
+				D8AEE4371C42A68800651AE6 /* PhotoViewController.swift */,
+				D8AEE4331C42A4AA00651AE6 /* PhotoCell.swift */,
+				D8AEE43D1C42B1C100651AE6 /* UIImage+Decompression.swift */,
 				D8AEE4221C42A0AF00651AE6 /* Main.storyboard */,
 				D8AEE4251C42A0AF00651AE6 /* Assets.xcassets */,
+				D8AEE4391C42A92B00651AE6 /* Photo.xcassets */,
 				D8AEE4271C42A0AF00651AE6 /* LaunchScreen.storyboard */,
 				D8AEE42A1C42A0AF00651AE6 /* Info.plist */,
+			);
+			path = SameHeightLayout;
+			sourceTree = "<group>";
+		};
+		D8AEE4301C42A0F400651AE6 /* SameHeightLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D8AEE43B1C42ACCA00651AE6 /* SameHeightLayout.swift */,
 			);
 			path = SameHeightLayout;
 			sourceTree = "<group>";
@@ -122,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AEE43A1C42A92B00651AE6 /* Photo.xcassets in Resources */,
 				D8AEE4291C42A0AF00651AE6 /* LaunchScreen.storyboard in Resources */,
 				D8AEE4261C42A0AF00651AE6 /* Assets.xcassets in Resources */,
 				D8AEE4241C42A0AF00651AE6 /* Main.storyboard in Resources */,
@@ -135,8 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8AEE4211C42A0AF00651AE6 /* ViewController.swift in Sources */,
+				D8AEE43C1C42ACCA00651AE6 /* SameHeightLayout.swift in Sources */,
+				D8AEE43E1C42B1C100651AE6 /* UIImage+Decompression.swift in Sources */,
+				D8AEE4341C42A4AA00651AE6 /* PhotoCell.swift in Sources */,
 				D8AEE41F1C42A0AF00651AE6 /* AppDelegate.swift in Sources */,
+				D8AEE4381C42A68800651AE6 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
