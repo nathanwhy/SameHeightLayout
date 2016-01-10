@@ -16,7 +16,7 @@ class PhotoViewController: UICollectionViewController {
         super.viewDidLoad()
         
         var photoNames: [String] = []
-        for i in 0...48{
+        for i in 0...32{
             photoNames.append(String(i) + ".jpg")
         }
         photos = photoNames.flatMap({ UIImage(named: $0 )})
