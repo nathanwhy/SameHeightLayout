@@ -1,7 +1,7 @@
 # SameHeightLayout
 Every row has the same height
 
-![](snapshot.png)
+![Screenshot](Screenshot/ScreenShot.png)
 
 ```Swift
 class SameHeightLayout: UICollectionViewLayout {
